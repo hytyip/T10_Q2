@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Website_Test]">
+  <parameter name="Search_word" value="Test"/>
+  <parameter name="Lang" value="it"/>
+  <test name="Test(failed)">
+    <parameter name="Search_word" value="Test"/>
+    <parameter name="Lang" value="it"/>
+    <classes>
+      <class name="Selenium.Q2.WebTest">
+        <methods>
+          <include name="main"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Selenium.Q2.WebTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Website_Test] -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Website_Test">
+<test name="Test">
+	<parameter name="Search_word" value="Test"/>
+	<parameter name="Lang" value="it"/>
+		<classes>
+			<class name="Selenium.Q2.WebTest"/>
+		</classes>
+</test>
+</suite>

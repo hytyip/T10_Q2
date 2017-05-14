@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Website_Test" duration-ms="9697" started-at="2017-05-14T17:41:10Z" finished-at="2017-05-14T17:41:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9697" started-at="2017-05-14T17:41:10Z" finished-at="2017-05-14T17:41:20Z">
+      <class name="Selenium.Q2.WebTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:Selenium.Q2.WebTest@5034c75a]" name="beforeTest" is-config="true" duration-ms="3162" started-at="2017-05-14T18:41:10Z" finished-at="2017-05-14T18:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[it]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="main()[pri:0, instance:Selenium.Q2.WebTest@5034c75a]" name="main" duration-ms="6513" started-at="2017-05-14T18:41:13Z" finished-at="2017-05-14T18:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Selenium.Q2.WebTest@5034c75a]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-05-14T18:41:20Z" finished-at="2017-05-14T18:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Selenium.Q2.WebTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Website_Test -->
+</testng-results>
